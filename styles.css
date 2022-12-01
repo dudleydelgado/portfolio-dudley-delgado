@@ -453,17 +453,25 @@ h3{
         padding-bottom: 50px;
        }
 
+       .container-personal-projects{
+        text-align: center;
+       }
+
        .container-personal-projects h3{
         margin-bottom: 20px;
         margin-top: 20px;
         text-align: center;
+        padding: 0 20px;
        }
 
 
        .container-personal-projects img{
         width: 350px;
+        height: 250px;
         cursor: pointer;
         filter: grayscale(90%);
+        object-fit: cover;
+        border-radius: 10px;
        }
 
        .container-personal-projects img:hover{
@@ -535,14 +543,14 @@ h3{
     }
 
     .container-content-right {
-      width: 350px;
-      height: 350px;
+      width: 250px;
+      height: 250px;
       background-color: #eeeeee;
       border-radius: 50%;
     }
 
     .container-content-right img {
-      width: 350px;
+      width: 250px;
       object-fit: cover;
       object-position: center;
       position: relative;
@@ -604,6 +612,10 @@ h3{
           background-color: var(--black);
           color: white;
          }
+
+         .container-personal-projects h3{
+            padding: 0 20px;
+           }
       }
 
     @media (min-width: 999px) {
